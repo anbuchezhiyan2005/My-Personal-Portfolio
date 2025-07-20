@@ -14,10 +14,15 @@
 }
 
 .nav-connect{
-    padding: 20px 40px;
+    padding: 15px 45px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #d7263d, #3a0ca3, #1a0536);
-    transition: 0.5s;
+    background: linear-gradient(120deg, #420984 0%, #790ee4 10%, #ba4cff 30%, #c905ff 45%, #ff1ae0 60%, #fff346 100%);    
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow:
+        0 0 10px #ffffff,   
+        0 0 20px #ff0099,  
+        0 0 30px #ff00a2;
 }
 
 .nav-connect:hover{

@@ -17,8 +17,130 @@
 }
 
 .hero h1 span{
-    background: linear-gradient(267deg, #d7263d, #3a0ca3, #1a0536);
     backgroung-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: #ff00ff;
+    text-shadow: 
+        0 0 2px #ffffff,
+        0 0 4px #ffffff,
+        0 0 5px #ff00ff,
+        0 0 10px #ff00ff,
+        0 0 15px #ff00ff,
+        0 0 20px #ff00ff,
+        0 0 25px #ff00ff;
+}
+
+.hero h1 .IN{
+    backgroung-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #ff9500;
+    text-shadow: 
+        0 0 2px #ffffff,
+        0 0 4px #ffffff,
+        0 0 5px #ff8400,
+        0 0 10px #ff8400,
+        0 0 15px #ff8400,
+        0 0 20px #ff8400,
+        0 0 25px #ff8400;
+}
+
+.hero h1 .D{
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #ffffff;
+    text-shadow: 
+        0 0 2px #ffffff,
+        0 0 4px #a8a8a8,
+        0 0 5px #a8a8a8,
+        0 0 10px #a8a8a8,
+        0 0 15px #a8a8a8,
+        0 0 20px #a8a8a8,
+        0 0 25px #a8a8a8;
+}
+
+.hero h1 .IA{
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #06b411;
+    text-shadow: 
+        0 0 2px #ffffff,
+        0 0 4px #ffffff,
+        0 0 5px #45e600,
+        0 0 10px #45e600,
+        0 0 15px #45e600,
+        0 0 20px #45e600,
+        0 0 25px #45e600;
+}
+
+.hero p{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.hero-connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(120deg, #420984 0%, #790ee4 10%, #ba4cff 30%, #c905ff 45%, #ff1ae0 60%, #fff346 100%);    
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow:
+        0 0 10px #ffffff,   
+        0 0 20px #ff0099,  
+        0 0 30px #ff00a2;
+}
+
+.hero-resume{
+    padding: 20px 48px;
+    border-radius: 999px;
+    background: #ffffff; 
+    border: 5px solid transparent;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    transition: 0.2s;
+    box-shadow:
+        0 0 10px #ffffff,   
+        0 0 20px #ff0099,  
+        0 0 30px #ff00a2;
+    background-image:
+    linear-gradient(#bebebe, #ffffff), 
+    linear-gradient(120deg, #420984 0%, #790ee4 10%, #ba4cff 30%, #c905ff 45%, #ff1ae0 60%, #fff346 100%); /* border gradient */
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    background-size: 100% 100%, 200% 200%, 300% 300%; 
+    background-position: 0 0, 0 0;
+    transition: background-position 0.3s, transform 0.2s;
+}
+
+.hero-connect:hover {
+    transform: scale(1.05);
+}
+
+.hero-resume:hover{
+    transform: scale(1.05);
+    color: rgb(255, 255, 255);
+    background-image:
+    linear-gradient(#252525, #000000), 
+    linear-gradient(270deg, #420984 0%, #790ee4 10%, #ba4cff 30%, #c905ff 45%, #ff1ae0 60%, #fff346 100%); /* border gradient */
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    background-size: 100% 100%, 200% 200%;
+    background-position: 0 0, 100% 0, 0 100%;
 }
